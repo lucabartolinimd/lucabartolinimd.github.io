@@ -139,6 +139,8 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .role + .role { padding-left: 24px; border-left: 1px solid var(--line); }
 .role .org { font-size: var(--serif-1); color: var(--ink); font-weight: 700; line-height: 1.3; }
 .role .what { color: var(--slate); font-size: .95rem; }
+.role .org a { color: inherit; text-decoration-color: var(--navy-soft); }
+.role .org a:hover { color: var(--navy); text-decoration-color: currentColor; }
 .split { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(32px, 6vw, 80px); }
 .stack { display: grid; gap: 18px; align-content: start; min-width: 0; }
 .stack h2 { font-size: var(--serif-2); }
