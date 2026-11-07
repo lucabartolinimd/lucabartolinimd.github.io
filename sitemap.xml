@@ -1,15 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.lucabartolinimd.com/</loc></url>
-  <url><loc>https://www.lucabartolinimd.com/it/</loc></url>
-  <url><loc>https://www.lucabartolinimd.com/cv/</loc></url>
-  <url><loc>https://www.lucabartolinimd.com/awards/</loc></url>
-  <url><loc>https://www.lucabartolinimd.com/research/</loc></url>
-  <url><loc>https://www.lucabartolinimd.com/contacts/</loc></url>
-  <url><loc>https://www.lucabartolinimd.com/publications/</loc></url>
-  <url><loc>https://www.lucabartolinimd.com/it/contatti/</loc></url>
-  <url><loc>https://www.lucabartolinimd.com/it/cv/</loc></url>
-  <url><loc>https://www.lucabartolinimd.com/it/premi/</loc></url>
-  <url><loc>https://www.lucabartolinimd.com/it/pubblicazioni/</loc></url>
-  <url><loc>https://www.lucabartolinimd.com/it/ricerca/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.lucabartolinimd.com/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/"/>
+  </url>
+  <url>
+    <loc>https://www.lucabartolinimd.com/publications/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/publications/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/pubblicazioni/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/publications/"/>
+  </url>
+  <url>
+    <loc>https://www.lucabartolinimd.com/research/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/research/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/ricerca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/research/"/>
+  </url>
+  <url>
+    <loc>https://www.lucabartolinimd.com/awards/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/awards/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/premi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/awards/"/>
+  </url>
+  <url>
+    <loc>https://www.lucabartolinimd.com/cv/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/cv/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/cv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/cv/"/>
+  </url>
+  <url>
+    <loc>https://www.lucabartolinimd.com/contacts/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/contatti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/contacts/"/>
+  </url>
+  <url>
+    <loc>https://www.lucabartolinimd.com/it/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/"/>
+  </url>
+  <url>
+    <loc>https://www.lucabartolinimd.com/it/pubblicazioni/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/publications/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/pubblicazioni/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/publications/"/>
+  </url>
+  <url>
+    <loc>https://www.lucabartolinimd.com/it/ricerca/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/research/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/ricerca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/research/"/>
+  </url>
+  <url>
+    <loc>https://www.lucabartolinimd.com/it/premi/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/awards/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/premi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/awards/"/>
+  </url>
+  <url>
+    <loc>https://www.lucabartolinimd.com/it/cv/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/cv/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/cv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/cv/"/>
+  </url>
+  <url>
+    <loc>https://www.lucabartolinimd.com/it/contatti/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lucabartolinimd.com/contacts/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lucabartolinimd.com/it/contatti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lucabartolinimd.com/contacts/"/>
+  </url>
 </urlset>
