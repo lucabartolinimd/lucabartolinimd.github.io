@@ -117,6 +117,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .hero .ctas { margin-top: 6px; }
 .portrait { position: relative; margin: 0; justify-self: end; width: 100%; max-width: 360px; }
 .portrait::before { content: ""; position: absolute; inset: 28px -18px -18px 28px; background: var(--deco); border-radius: 4px; }
+.portrait picture { display: block; }
 .portrait img { position: relative; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 18%; border-radius: 4px; background: var(--paper-2); }
 
 /* home: bands */
