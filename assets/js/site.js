@@ -37,3 +37,19 @@
   if (media.addEventListener) media.addEventListener('change', sync);
   sync();
 })();
+
+// Contacts map: Google is contacted only after the visitor clicks "Show the map"
+(function () {
+  document.querySelectorAll('.map-frame').forEach(function (box) {
+    var btn = box.querySelector('.map-load');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var f = document.createElement('iframe');
+      f.src = box.dataset.src;
+      f.title = box.dataset.title;
+      f.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
+      box.replaceWith(f);
+      f.focus();
+    });
+  });
+})();
