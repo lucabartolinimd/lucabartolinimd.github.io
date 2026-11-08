@@ -196,6 +196,8 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .page-head .titles { display: grid; gap: 6px; min-width: 0; }
 .page-head h1 { font-size: var(--serif-3); letter-spacing: -.01em; }
 .page-head .intro { color: var(--slate); max-width: 44em; }
+/* old cached pages still carry the name card; keep it hidden */
+.page-head .mini { display: none; }
 .page-body .wrap { padding-block: clamp(40px, 6vw, 72px); display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: clamp(32px, 5vw, 64px); align-items: start; }
 .page-body.no-toc .wrap { grid-template-columns: minmax(0, 1fr); }
 .toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 92px); display: grid; gap: 4px; font-size: .9rem; }
