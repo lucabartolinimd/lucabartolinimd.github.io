@@ -90,6 +90,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .brand strong { font-size: 1.375rem; line-height: 1.2; }
 .brand span { font-size: .78rem; color: var(--slate); letter-spacing: .02em; white-space: nowrap; }
 .nav { display: flex; align-items: center; gap: 26px; }
+.brand strong { text-wrap: balance; }
 .nav ul { list-style: none; display: flex; gap: 22px; margin: 0; padding: 0; }
 .nav ul a { text-decoration: none; color: var(--text); font-size: .95rem; padding-block: 6px; border-bottom: 2px solid transparent; }
 .nav ul a:hover, .nav ul a[aria-current="page"] { color: var(--navy); border-color: var(--navy); }
@@ -389,10 +390,13 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
   .page-body .wrap { grid-template-columns: minmax(0, 1fr); }
   .toc { display: none; }
 }
-/* the full menu needs about 1,065px; below that it moves behind the Menu button */
-@media (max-width: 1080px) {
+/* the full menu needs about 1,130px; below that it moves behind the Menu button */
+@media (max-width: 1140px) {
   .nav ul { display: none; }
   .menu-btn { display: inline-block; min-height: 44px; }
+  /* the name may wrap to two lines rather than run under the buttons */
+  .nav { flex: none; }
+  .site-header .brand { min-width: 0; }
   .nav.open ul { display: grid; position: absolute; top: 100%; left: 0; right: 0; background: var(--paper); border-bottom: 1px solid var(--line); padding: 8px var(--gutter-r) 16px var(--gutter-l); box-shadow: 0 12px 24px rgba(15, 49, 73, .08); }
   .nav.open ul a { display: block; padding-block: 12px; border-bottom: 1px solid var(--line); }
 }
@@ -420,11 +424,14 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
   .nav { gap: 8px; }
   .lang a { padding: 6px 8px; }
   .menu-btn { padding: 8px 10px; }
-  .brand strong { font-size: 1.2rem; white-space: nowrap; }
+  .brand strong { font-size: 1.2rem; line-height: 1.1; }
   .brand { column-gap: 9px; }
   .brand-photo img { width: 34px; height: 34px; }
   .honors, .contact-grid { grid-template-columns: minmax(0, 1fr); }
   .timeline li { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+}
+/* the subtitle line needs about 720px next to the buttons */
+@media (max-width: 720px) {
   .brand span { display: none; }
 }
 @media (max-width: 400px) {
